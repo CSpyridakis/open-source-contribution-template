@@ -1,5 +1,5 @@
 # CODEOWNERS — auto-requests reviewers by path; enforceable via branch protection.
 # HOW TO USE: map globs to teams/users. Last matching pattern wins.
-*                    @OWNER/core-team
+*                    @CSpyridakis
 # /docs/             @OWNER/docs-team
 # /.github/workflows/ @OWNER/ci-team
