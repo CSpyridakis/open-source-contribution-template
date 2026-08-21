@@ -1,0 +1,8 @@
+# .gitignore — files Git must not track.
+# HOW TO USE: start from a language template at https://github.com/github/gitignore
+*.log
+.env
+dist/
+build/
+node_modules/
+__pycache__/
