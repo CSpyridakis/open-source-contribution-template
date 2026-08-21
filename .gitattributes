@@ -1,0 +1,8 @@
+# .gitattributes — per-path Git behaviour: line endings, Linguist, LFS.
+# HOW TO USE: keep `* text=auto`; add Linguist/LFS rules as needed.
+* text=auto
+
+# Linguist overrides (examples):
+# docs/**   linguist-documentation
+# vendor/** linguist-vendored
+# *.min.js  linguist-generated
