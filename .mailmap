@@ -1,0 +1,3 @@
+# .mailmap — collapse duplicate contributor identities in git log/shortlog/blame.
+# HOW TO USE: add a line per contributor who used multiple names/emails.
+Christos Spyridakis <spyridakischristos@gmail.com>
