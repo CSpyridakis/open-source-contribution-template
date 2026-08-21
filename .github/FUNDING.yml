@@ -1,6 +1,8 @@
 # FUNDING.yml — drives the Sponsor button.
 # HOW TO USE: uncomment the platforms you use. Delete the file if none.
-github: [cspyridakis]
+# custom: shows the Sponsor button for ANY URL (no GitHub Sponsors enrollment
+# needed) — a dummy URL still renders. Swap for your real donate link.
+custom: ["https://example.com/donate"]
+# github: [account]   # needs an active GitHub Sponsors account to render
 # open_collective: project
 # ko_fi: username
-custom: ["https://example.com/donate"]
