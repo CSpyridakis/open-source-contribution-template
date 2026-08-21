@@ -1,0 +1,12 @@
+# dependabot.yml — automated dependency + action update PRs.
+# HOW TO USE: add one block per ecosystem you use (npm, pip, cargo, gomod...).
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+  # - package-ecosystem: "npm"   # swap for your ecosystem
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
