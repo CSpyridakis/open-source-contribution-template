@@ -114,3 +114,40 @@ Separate repo, `.wiki.git` suffix. Add `.md` files, commit, push.
 - `_Sidebar.md`: custom nav
 - `_Footer.md`: footer on every page
 - Page links: `[[Page Name]]`
+
+---
+
+## 7. GitHub Pages
+
+Publish a static website straight from this repo. URL:
+`https://USER.github.io/REPO/`. See [docs](https://docs.github.com/pages/getting-started-with-github-pages/about-github-pages).
+
+**Enable (branch source, simplest):**
+
+1. Settings -> Pages
+2. **Source** = "Deploy from a branch"
+3. Pick branch (`main`) + folder (`/root` or `/docs` or `/pages`)
+4. Save. Wait for build, site goes live at the URL above.
+
+Put your content there:
+
+- `/root` source: `index.md` or `index.html` at repo root
+- `/docs` source: same, inside `docs/`
+- Plain Markdown works; GitHub runs **Jekyll** by default. Add empty
+  `.nojekyll` file to skip Jekyll processing.
+
+**Enable (Actions source, for custom builds):**
+
+1. Settings -> Pages -> **Source** = "GitHub Actions"
+2. Add a workflow under `.github/workflows/` that builds + deploys
+   (starter templates offered in the Pages UI, e.g. Jekyll, static HTML)
+
+Use this when you need a site generator (Jekyll, Hugo, MkDocs, Astro).
+
+**Custom domain (optional):**
+
+- Settings -> Pages -> Custom domain -> enter domain
+- Adds a `CNAME` file to the repo; set DNS `CNAME`/`A` records at your
+  registrar, see [docs](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site)
+
+Private repo: Pages public only on paid plans; otherwise site stays private.
