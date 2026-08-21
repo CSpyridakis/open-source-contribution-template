@@ -1,0 +1,15 @@
+# CITATION.cff — machine-readable citation metadata.
+# Adds a "Cite this repository" button; GitHub exports APA/BibTeX.
+# HOW TO USE: fill authors, version, date. Keep only if the project is citable.
+cff-version: 1.2.0
+title: Project Name
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Family
+    given-names: Given
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 0.1.0
+date-released: "YYYY-MM-DD"
+license: MIT
+repository-code: "https://github.com/OWNER/REPO"
