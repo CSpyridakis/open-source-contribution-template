@@ -1,0 +1,7 @@
+# security.txt — RFC 9116 machine-readable security contact.
+# HOW TO USE: set contact + a future Expires date. Serve from your site's
+# /.well-known/security.txt. Comments with '#' are allowed by the spec.
+Contact: mailto:security@example.com
+Expires: 2026-12-31T23:59:00.000Z
+Preferred-Languages: en
+Policy: https://github.com/OWNER/REPO/security/policy
