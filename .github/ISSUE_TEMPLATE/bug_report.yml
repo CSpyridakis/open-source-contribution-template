@@ -1,0 +1,24 @@
+# bug_report.yml — structured, parseable bug reports (GitHub Issue Forms).
+# HOW TO USE: add more forms (e.g. feature_request.yml) alongside this one.
+name: Bug Report
+description: Report a reproducible bug
+labels: ["bug", "triage"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+    validations:
+      required: true

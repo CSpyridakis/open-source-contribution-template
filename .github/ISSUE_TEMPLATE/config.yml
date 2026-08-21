@@ -1,0 +1,7 @@
+# config.yml — controls the issue chooser.
+# HOW TO USE: redirect questions to Discussions; disable blank issues.
+blank_issues_enabled: false
+contact_links:
+  - name: Question / Support
+    url: https://github.com/OWNER/REPO/discussions
+    about: Ask questions here, not in the issue tracker.
