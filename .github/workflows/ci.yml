@@ -1,0 +1,18 @@
+# ci.yml — CI on push/PR with least-privilege token.
+# HOW TO USE: uncomment/add your test + lint steps and the language setup.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # - run: make test
