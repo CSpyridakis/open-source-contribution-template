@@ -93,3 +93,24 @@ This template keeps docs at root and GitHub config under `.github/`.
 - **[Semantic Versioning](https://semver.org/)**: `MAJOR.MINOR.PATCH`.
 
 - Branch protection: required reviews, status checks, CODEOWNERS review.
+
+---
+
+## 6. Wiki
+
+GitHub Wiki is a **separate git repo** attached to your project, for long-form
+docs not versioned with the code. Enable via Settings -> Features -> Wikis,
+then use the **Wiki** tab. See [docs](https://docs.github.com/communities/documenting-your-project-with-wikis/about-wikis).
+
+**Edit locally (git):**
+
+```
+git clone https://github.com/USER/REPO.wiki.git   # Requires the first page to exist, to use it
+```
+
+Separate repo, `.wiki.git` suffix. Add `.md` files, commit, push.
+
+- `Home.md`: landing page
+- `_Sidebar.md`: custom nav
+- `_Footer.md`: footer on every page
+- Page links: `[[Page Name]]`
