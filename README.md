@@ -126,7 +126,7 @@ Publish a static website straight from this repo. URL:
 
 1. Settings -> Pages
 2. **Source** = "Deploy from a branch"
-3. Pick branch (`main`) + folder (`/root` or `/docs` or `/pages`)
+3. Pick branch (`main`) + folder (`/root` or `/docs`)
 4. Save. Wait for build, site goes live at the URL above.
 
 Put your content there:
