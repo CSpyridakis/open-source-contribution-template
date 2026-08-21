@@ -121,7 +121,7 @@ Separate repo, `.wiki.git` suffix. Add `.md` files, commit, push.
 
 Publish a static website straight from this repo. URL:
 `https://USER.github.io/REPO/`. See [docs](https://docs.github.com/pages/getting-started-with-github-pages/about-github-pages).
-E.g. (https://cspyridakis.github.io/open-source-contribution-template/)[https://cspyridakis.github.io/open-source-contribution-template/]
+E.g. https://cspyridakis.github.io/open-source-contribution-template/
 
 **Enable (branch source, simplest):**
 
